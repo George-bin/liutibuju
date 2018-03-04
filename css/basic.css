@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+body,h1,h2,h3,ul,ol,p,figure {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+ul,ol {
+	list-style: outside none;
+}
+.none {
+	display: none;
+}
+#header {
+	width: 100%;
+	min-width: 1263px;
+	height: 70px;
+	background-color: #333;
+	box-shadow: 0 3px 10px rgba(0,0,0,0.3); /*阴影效果*/
+	position: relative;  /*相对定位*/
+	z-index: 9999;
+}
+#header .center {
+	width: 1263px;
+	height: 70px;
+	margin : 0 auto;
+}
+#header .logo {
+	width: 240px;
+	height: 70px;
+	background-image: url(../img/logo.png);
+	text-indent: -9999px;  /*移位*/
+	float: left;
+}
+#header .link {
+	/*background-color: red;*/
+	width: 650px;
+	float: right;
+	height: 70px;
+	line-height: 70px;
+	
+}
+#header .link li {
+	width: 120px;
+	text-align: center;
+	color: Gainsboro;
+	float: left;
+}
+#header .link li a {
+	color: Gainsboro;
+	display: block;
+}
+#header .link li a:hover, #header .link li.active a {
+	background-color: #000;
+}
+
+#footer {
+	height: 360px;
+	background-color: #222;
+	clear: both;
+	position: relative;  /*在使用清理浮动的情况下，利用相对定位，调整位置*/
+	top: 20px;
+}
+#footer .top {
+	width: 1263px;
+	height: 280px;
+	margin: 0 auto;
+	text-align: center;
+}
+#footer .block {
+	width: 410px;
+	height: 280px;
+	/*background-color: red;*/
+	display: inline-block;
+	text-align: left;
+	color: #ccc;
+	vertical-align: top;  /*垂直据顶*/
+}
+#footer h2 {
+	font-size: 24px;
+	font-weight: normal;
+	padding: 20px 0 0 20px;
+}
+#footer hr {
+	width: 88%;
+	border: 1px solid #333;
+}
+#footer ul {
+	font-size: 18px;
+	color: #777;
+	line-height: 2;
+	text-indent: 20px;  /*首行缩进*/
+}
+#footer .bottom {
+	height: 80px;
+	line-height: 80px;
+	color: #777;
+	background-color: #000;
+	text-align: center;
+	border-top: 1px solid #444;
+}

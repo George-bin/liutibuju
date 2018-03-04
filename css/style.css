@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+#search {
+	width: 100%;
+	min-width: 1263px;
+	height: 600px;
+	background: url(../img/search.jpg) no-repeat center;
+	position: relative;  /*父元素设置相对点*/
+}
+
+#search .center {
+	width: 600px;      
+	height: 48px;
+	background-color: #000;
+	position: absolute; /*设置绝对定位*/
+	top: 50%;   
+	left: 50%;
+	margin: -30px 0 0 -300px;  /*减去四边多余的距离*/
+	border-radius: 10px;  /*设置圆角矩形*/
+	opacity: 0.6;  /*设置透明度*/
+}
+#search .search {
+	width: 446px;
+	height: 40px;
+	position: absolute;
+	background-color: #eee;
+	top: 50%;
+	left: 50%;
+	margin: -27px 0 0 -296px;
+	border-radius: 10px;
+	border: 1px solid #666;
+	font-size: 24px;
+	color: #666;
+	outline: none;  /*点击后焦点外边框*/
+	padding: 0 10px;
+}
+#search .button {
+	width: 120px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -27px 0 0 175px;
+	border-radius: 10px;
+	border: 1px solid #666;
+	font-size: 24px;
+	color: #666;
+	outline: none;  /*点击后焦点外边框*/
+	cursor:pointer;
+	font-weight: bold;  /*加粗*/
+}
+
+#tour {   /*父元素*/
+	width: 1263px;
+	height: 1270px;
+	/*background-color: #ccc;*/
+	margin: 30px auto;
+	text-align: center;
+}
+/*#tour .center {
+	text-align: center;
+}*/
+#tour .center h2 {
+	font-size: 45px;
+	letter-spacing: 3px;  /*字体间距*/
+	color: #666;
+	margin: 10px 0;
+}
+#tour .center p {
+	color: #666;
+	margin: 10px 0;
+}
+#tour figure {
+	border: 1px solid #ddd;
+	display: inline-block;  /*占据本身的位置*/
+	padding: 4px;
+	margin: 15px 12px;
+	width: 380px;
+	text-align: left;
+	position: relative;  /*相对定位点*/
+}
+#tour figure img {
+	vertical-align: middle;  /*解决多余空间问题*/
+}
+#tour .info {
+	padding: 5px 0 0 0;
+}
+#tour figure figcaption {
+	color: #777;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 1.5;  /*行高*/
+	padding: 7px 0 0 5px;
+}
+#tour .title {
+	color: black;
+	font-weight: normal;  /*去掉加粗*/
+}
+#tour .sat {
+	float: right;
+	font-size: 13px;
+	color: #999;
+	font-style: normal; /*去掉倾斜*/
+	position: relative;  /*使用相对定位进行调整，调整适当位置*/
+	top: 5px;
+	right: 5px;
+}
+#tour .price {
+	color: orange;
+	font-size: 14px;
+}
+#tour .price strong {
+	font-size: 20px;
+	letter-spacing: 1pxs;
+}
+#tour .type {
+	width: 90px;
+	height: 25px; 
+	font-size: 14px;
+	line-height: 25px;
+	color: #fff;
+	text-align: center;  /*文本居中*/
+	background-color: #59b200;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+}
+

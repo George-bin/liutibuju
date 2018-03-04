@@ -1,0 +1,460 @@
+@charset "utf-8";
+
+#headline {
+	width: 100%;
+	min-width: 1263px;
+	height: 300px;
+	background: linear-gradient(to right bottom, rgba(0,0,0,0.7), rgba(255,255,255,0.0)) , url(../img/headline.jpg) no-repeat center;
+}  /*设置渐变，降低背景亮度*/
+#headline .center {
+	width: 1263px;
+	height: 300px;
+	margin: 0 auto;
+}
+#headline hgroup {
+	padding: 100px 0 0 50px;
+}
+#headline h2 {
+	color: WhiteSmoke;
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+#headline h3 {
+	color: WhiteSmoke;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+#container {
+	width: 1263px;
+	margin: 30px auto;
+}
+#container .sidebar {
+    width: 340px;
+    /*background-color: #eee;*/
+    float: right
+}
+#container .sidebox {
+	border: 1px solid #eee;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+#container .sidebox h2 {
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-indent: 8px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #fafafa;
+	color: #666;
+	text-align: left;
+}
+#container .tag {
+	padding: 10px 0;
+}
+#container .tag li {
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	margin: 2px 0;
+	background-color: #eee;
+	text-align: left;
+	text-indent: 8px;
+}
+#container .tag a {
+	color: #999;
+	display: block;
+}
+#container .tag a:hover {
+	background-color: #458b00;
+	color: #fff;
+}
+#container .figure {
+	padding: 10px 0;
+}
+#container figure {
+	display: inline-block;
+	padding: 4px;
+	color: #666;
+}
+#container .box {
+	padding: 10px 0;
+}
+#container .box a.trea1 {
+	background: #eee url(../img/trea1.png) no-repeat 5px center;
+}
+#container .box a.trea2 {
+	background: #eee url(../img/trea2.png) no-repeat 5px center;
+}
+#container .box a.trea3 {
+	background: #eee url(../img/trea3.png) no-repeat 5px center;
+}
+#container .box a.trea4 {
+	background: #eee url(../img/trea4.png) no-repeat 5px center;
+}
+#container .box a {
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	margin: 2px 0;
+	text-align: left;
+	text-indent: 50px;
+	color: #999;
+}
+#container .box a:hover {
+	background-color: orange;
+	color: #fff;
+}
+
+
+
+#container .information {     /*中部上  次导航栏*/
+	width: 910px;
+	float: left;
+}
+#container .information .infor {
+	height: 45px;
+	line-height: 45px;
+	background-color: #eee;
+	margin: 0 0 20px 0;
+}
+#container .information .left {
+	display: inline-block;
+	float: left;
+}
+#container .information .left li {
+	display: inline-block;
+	width: 150px;
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+}
+#container .information .left li:first-child {
+	background-color: #fff;
+	border-top: 2px solid #45b800;
+	position: relative;
+	left: 1px;
+}
+#container .information .left a {
+	color: #666;
+}
+#container .information .right {
+	display: inline-block;
+	padding: 0 20px 0 0;
+	float: right;
+}
+#container .information .right li {
+	display: inline-block;
+	width: 60px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+#container .information .right a {
+	padding: 3px 8px;
+	color: #666;
+}
+#container .information .right a.firsta, #container .right a:hover {
+	background-color: #45b800;
+	color: #fff;
+}
+#container .tour {    /*中部 中  信息栏*/
+	width: 908px;
+	padding: 0;
+	margin: 0 0 20px 0;
+	border: 1px solid #eee;
+	position: relative;
+}
+#container .tour img {
+	float: left;
+}
+#container .tour figcaption {
+	width: 528px;
+	height: 280px;
+	float: right;
+}
+#container .tour hgroup {
+	width: 300px;
+}
+#container .tour h2 {
+    font-size: 24px;
+    font-weight: normal;
+    padding: 10px 0 20px 25px;
+    color: #333;
+}
+#container .tour h3 {
+    font-size: 16px;
+    padding: 10px 0 25px 25px;
+    line-height: 2;
+    font-weight: normal;
+    color: #666;
+}
+#container .tour mark {
+	background-color: #fff;
+	border: 1px solid #45b800;
+	border-radius: 4px;
+	padding: 0 2px;
+	color: #45b800;
+}
+#container .tour ol {
+	padding: 0 0 0 25px;
+	color: #666;
+	line-height: 1.5;
+}
+#container .tour .buy {
+	position: absolute;
+	top: 28px;
+	right: 30px;
+}
+#container .tour .price {
+	font-size: 20px;
+	color: orange;
+}
+#container .tour .price strong {
+	font-size: 36px;
+}
+#container .tour .price s {
+	font-size: 16px;
+	color: #999;
+}
+#container .tour .reserve {
+	padding: 10px 0 0 0;
+}
+#container .tour .reserve a {
+	display: inline-block;
+	width: 152px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	border-radius: 4px;
+	background-color: #f60;
+}
+#container .tour .discount {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 52px;
+	height: 52px;
+	background: url() no-repeat;  
+}
+#container .tour .discount span {     /*设置字体倾斜*/
+	display: block;
+	transition: rotate(45deg);   /*设置角度*/
+	width: 52px;
+	height: 52px;
+	padding: 5px 0 0 0;
+	text-indent: 7px;
+	font-size: 14px;
+	color: #447a4d;
+}
+#container .type {
+	width: 90px;
+	height: 25px; 
+	font-size: 14px;
+	line-height: 25px;
+	color: #fff;
+	text-align: center;  /*文本居中*/
+	background-color: #59b200;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#container .tour footer {
+	width: 528;
+	height: 30px;
+	line-height: 30px;
+	color: #666;
+	text-indent: 25px;
+	letter-spacing: 1px;
+	background-color: #fafafa;
+	position: absolute;
+	bottom: 0;
+}
+#container .tour time {
+	color: #45b800;
+}
+#container .information .more, #container .scenery  .more {
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin: 10px auto;
+	border: 1px solid #ccc;
+	background-color: #fafafa;
+	border-radius: 10px;
+	cursor: pointer;   /*手型点击*/
+	font-size: 18px;
+	color: #666;
+}
+
+/*机票预订页*/
+#container .ticket,  #container .scenery，#container .about {
+	width: 910px;
+	color: #666;
+	font-size: 20px;
+}
+#container .ticket h2, #container .scenery h2, #container .about h2 {
+	color: #666;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px dashed #ccc;
+    padding: 0 0 15px 0;
+    font-size: 30px;
+    font-weight: normal;
+}
+#container .ticket .types {
+	margin: 20px 0 10px 0;
+}
+#container .ticket .types mark {
+	color: #fff;
+	background-color: #45b800;
+	padding: 5px 8px;
+	border-radius: 4px;
+	margin: 0 10px 0 16px;
+}
+#container .ticket .left {
+	width: 43%;
+    display: inline-block;
+}
+#container .ticket .right {
+	width: 43%;
+	display: inline-block;
+}
+#container .ticket .button {
+	width: 9%;
+	display: inline-block;
+}
+#container .ticket .submit {
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: #f60;
+	position: relative;
+	top: -28px;
+}
+#container .ticket .form p {
+	line-height: 3;
+}
+#container .ticket .form input {
+	width: 250px;
+	height: 30px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #fff;
+	padding: 5px;
+	font-size: 18px;
+	color: #666;
+	margin: 0 0 0 16px;
+}
+#container .ticket .new {
+	margin: 20px 0 0 0;
+}
+#container .ticket .new ul {
+    margin: 20px 0 0 0;
+}
+#container .ticket .new li {
+	display: inline-block;
+	padding: 5px 10px;
+}
+#container .ticket .new li:first-child {
+	padding-left: 0;
+}
+#container .ticket .new li:nth-child(2) {    /*选择第二个伪类*/
+    background-color: #45b800;
+    border-radius: 4px;
+    color: #fff;
+}
+#container .ticket table {
+	margin: 20px 0 0 0;
+	width: 100%;
+	border: 1px solid #ddd;
+	border-collapse: collapse;   /*去掉填充，即去掉多条边框，只显示一条*/
+}
+#container .ticket table th {
+	height: 50px;
+	line-height: 50px;
+	background-color: #999;
+	color: #fff;
+	border-bottom: 1px solid #ddd;   /*只显示底边框*/
+}
+#container .ticket table td {
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ddd;    /*只显示底边框*/
+	text-align: center;
+}
+#container .ticket table tr:nth-child(2n) {   /*更好的显示界面*/
+	background-color: #fafafa;
+}
+#container .ticket table tr:hover {  /*鼠标选定时的样式*/
+	background-color: #eee;
+}
+#container .ticket .price {
+	color: orange;
+}
+#container .ticket .more {
+	color: #666;
+}
+#container .ticket .reserve {
+	display: inline-block;
+	width: 80px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	border-radius: 4px;
+	background-color: #f60;
+}
+
+/*风景欣赏*/
+#container .scenery {
+	width: 910px;
+}
+#container .scenery figure {
+	border: 1px solid #ddd;
+	padding: 4px;
+	margin: 15px 50px 12px 0;
+}
+#container .scenery figcaption {
+	text-align: center;
+	padding: 5px 0;
+}
+
+/*关于我们*/
+#container .about p {
+	line-height: 2;
+	margin: 20px 0;
+	text-indent: 40px;
+}
+#container .about address {
+	line-height: 1.6;
+	margin: 20px 0;
+	font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
